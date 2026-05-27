@@ -53,7 +53,7 @@ input, textarea, select { font-family: var(--sans); }
 .tnav-chev { font-size: 9px; opacity: 0.55; margin-left: 1px; }
 .tnav-badge { font-size: 9px; padding: 2px 5px; border-radius: 4px; background: var(--amber-bg); color: var(--amber); border: 1px solid var(--amber-border); font-family: var(--mono); font-weight: 500; }
 /* Dropdown */
-.nav-dropdown { position: absolute; top: calc(100% + 8px); left: 0; background: var(--bg2); border: 1px solid var(--border2); border-radius: 12px; padding: 8px; min-width: 242px; box-shadow: 0 8px 32px rgba(37,99,235,0.13), 0 2px 8px rgba(0,0,0,0.06); opacity: 0; pointer-events: none; transform: translateY(-6px); transition: opacity 0.18s, transform 0.18s; z-index: 300; }
+.nav-dropdown { position: absolute; top: 100%; left: 0; background: var(--bg2); border: 1px solid var(--border2); border-radius: 12px; padding: 8px; padding-top: 14px; min-width: 242px; box-shadow: 0 8px 32px rgba(37,99,235,0.13), 0 2px 8px rgba(0,0,0,0.06); opacity: 0; pointer-events: none; transform: translateY(-4px); transition: opacity 0.18s, transform 0.18s; z-index: 300; }
 .tnav-wrap:hover .nav-dropdown { opacity: 1; pointer-events: all; transform: translateY(0); }
 .nav-dd-title { font-size: 9px; font-family: var(--mono); text-transform: uppercase; letter-spacing: 0.1em; font-weight: 600; padding: 4px 10px 7px; }
 .nav-dd-item { display: flex; align-items: flex-start; gap: 10px; padding: 9px 10px; border-radius: 8px; cursor: pointer; transition: background 0.12s; }
